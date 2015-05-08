@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <FrameLayout
+        android:layout_width="52dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/timeline"
+            android:layout_width="4dp"
+            android:layout_gravity="center_horizontal|bottom"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:background="@color/AccentDark"/>
+        <View
+            android:layout_gravity="center"
+	        android:layout_width="16dp"
+		    android:layout_height="16dp"
+		    android:background="@drawable/timeline_circle"/>
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+	        android:fontFamily="sans-serif-light"
+	        android:textSize="18sp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/departures_station_route"/>
+		<TextView 
+		    android:fontFamily="sans-serif-light"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/darker_gray"
+	        android:id="@+id/departures_station_time"/>
+		
+    </LinearLayout>
+
+</LinearLayout>

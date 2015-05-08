@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    
+    <FrameLayout
+        android:layout_width="84dp"
+	    android:layout_height="56dp"
+	    android:layout_gravity="right">
+	    <!-- Not useless, this is centered in its parent that has a fixed height to align it to the
+	    	 timeline dot -->
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right|center_vertical">
+	           <TextView
+	               android:visibility="gone"
+		           android:fontFamily="sans-serif-light"
+		           android:layout_marginRight="16dp"
+		           android:layout_gravity="right"
+		           android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:textSize="18sp"
+			       android:id="@+id/route_details_segment_arrival_time"/>
+	           <TextView
+		           android:fontFamily="sans-serif-light"
+		           android:layout_marginRight="16dp"
+		           android:layout_gravity="right"
+		           android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:textSize="18sp"
+			       android:id="@+id/route_details_segment_departure_time"/>
+	    </LinearLayout>
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="36dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/timeline"
+            android:layout_width="4dp"
+            android:layout_gravity="center_horizontal|bottom"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:background="@color/AccentDark"/>
+        <View
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+	        android:layout_width="16dp"
+		    android:layout_height="16dp"
+		    android:background="@drawable/timeline_circle"/>
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+	        android:fontFamily="sans-serif-light"
+	        android:textSize="18sp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/route_details_segment_name"/>
+        
+        <LinearLayout 
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content" 
+       		android:orientation="vertical">
+            <TextView
+		        android:textSize="14sp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/route_details_segment_type"/>
+	        <TextView
+		        android:fontFamily="sans-serif-light"
+		        android:textSize="14sp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/route_details_segment_duration"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

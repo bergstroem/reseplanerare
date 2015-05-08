@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/favorite_button" android:title="@string/favorite" android:visible="false" android:icon="@drawable/star_border" android:showAsAction="always"></item>
+
+</menu>

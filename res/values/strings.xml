@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reseplanerare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="from">Från</string>
+    <string name="to">Till</string>
+    <string name="date_time">Datum och tid</string>
+    <string name="time">Tid</string>
+    <string name="date">Datum</string>
+    <string name="stations">Plats</string>
+    <string name="search">Sök</string>
+    <string name="title_activity_route_result">RouteResultActivity</string>
+    <string name="title_departures">Avgångar</string>
+    <string name="search_result_title">Sökresultat</string>
+    <string name="fetching_routes">Hämtar förslag på resor</string>
+    <string name="fetching_departures">Hämtar avgångar</string>
+    <string name="travel_date_time">Avgång</string>
+    <string name="search_routes">Sök resa</string>
+    <string name="bus">Buss</string>
+    <string name="walking">Gång</string>
+    <string name="plane">Flyg</string>
+    <string name="car">Bil</string>
+    <string name="air_taxi">Flygtaxi</string>
+    <string name="ferry">Färja</string>
+    <string name="other_train">Tåg</string>
+    <string name="tram">Spårvagn</string>
+    <string name="berth">Kajplats</string>
+    <string name="train_taxi">Tågtaxi</string>
+    <string name="subway">Tunnelbana</string>
+    <string name="city_traffic">Stadstrafik</string>
+    <string name="unknown">Okänd</string>
+    <string name="title_activity_main_tabs">Reseplanerare</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Sök</string>
+    <string name="title_section2">I närheten</string>
+    <string name="title_section3">Favoriter</string>
+    <string name="fetching_stations">Hämtar stationer nära dig</string>
+    <string name="favorite">Favorit</string>
+    <string name="no_results_found">Kunde inte hitta några förslag på resor :(</string>
+    <string name="route_details_title">Resedetaljer</string>
+    <string name="title_activity_route_details">Resedetaljer</string>
+    <string name="allow_position">Kunde inte hitta din position. Om du vill se stationer i närheten måste du tillåta den här appen att hämta din position.</string>
+    <string name="from">Från</string>
+    <string name="to">Till</string>
+    <string name="missing_stations_name">Inget stationsnamn ifyllt</string>
+    <string name="fill_departure_station">Behöver ett giltigt sökord i textfältet för avgång (minst 2 tecken).</string>
+    <string name="fill_arrival_station">Behöver ett giltigt sökord i textfältet för ankomst (minst 2 tecken).</string>
+    <string name="something_wrong_download">Nånting gick fel vid hämtningen, prova igen senare!</string>
+    <string name="error">Fel</string>
+    <string name="title_activity_about">Om</string>
+	<string name="about_position_header">Positionsdata</string>
+	<string name="about_position_text">Den här appen använder din position för att visa stationer i närheten. Observera att även om appen inte sparar din positionsdata så lämnas inga garantier att resrobot (tjänsten appen använder för att tillhandahålla stationer och resealternativ) inte lagrar positionsdatan.</string>
+	<string name="no_favorites">Du verkar inte ha sparat några favoriter än.</string>
+	<string name="no_stations">Kunde inte hitta några avgångar från den här stationen.</string>
+</resources>
